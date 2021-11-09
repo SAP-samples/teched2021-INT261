@@ -1,14 +1,13 @@
 # Discover and configure workflow content with SAP Workflow Management
 
-< Back to [Exercise 0: Introduction and Setup](../exercise0/README.md)
+< Back to [Exercise0: Introduction and Setup](../exercise0/README.md)
 
-Go to [Exercise 2: Intelligent Robotic Process Automation](../exercise2/README.md) >
+Go to [Exercise2: Intelligent Robotic Process Automation](../exercise2/README.md) >
 
 ## Table of contents
 
 <!-- TOC -->
 
-- [Discover and configure workflow content with SAP Workflow Management](#discover-and-configure-workflow-content-with-sap-workflow-management)
   - [Introduction](#introduction)
   - [Open SAP Workflow Management and import sample content](#open-sap-workflow-management-and-import-sample-content)
   - [Create and configure a process variant](#create-and-configure-a-process-variant)
@@ -42,10 +41,10 @@ process, based on a pre-built live process content package.
 
 ## Open SAP Workflow Management and import sample content
 
-Prerequisites are done:
-  -   Trial account available
-  -   SAP Workflow Management setup done (via booster)
-  -   Destination is configured
+**Prerequisites:**
+-   Trial account available
+-   SAP Workflow Management setup done (via booster)
+-   Destination is configured
 
 
 1. Go to <https://account.hanatrial.ondemand.com/trial/#/home/trial>

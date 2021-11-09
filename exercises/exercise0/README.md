@@ -1,12 +1,10 @@
 # Introduction and Setup
 
-In this exercise, you will...
+Welcome to this 2 hrs hands-on workshop on the combination of Workflow Management and SAP Intelligent RPA bots.
 
 ## Introduction
 
-Welcome you to this 2 hrs hands-on workshop on the combination of Workflow Management and SAP Intelligent RPA bots. After the session you would be able to run it with your customers.
-
-During this session you will learn how to:
+During this session, you will learn how to:
 
 1. Import Capital Expenditure sample workflow content package.
 2. Create new process variant using SAP Workflow Management.
@@ -279,6 +277,6 @@ In your trial account, **go to Services -> Service Marketplace**
 
 You have now successfully enabled Workflow Management and Robotic Process Automation in your Business Technology Platform Trial account
 
-Go to [Exercise 2: Workflow Management](../ex1/README.md) >
+Go to [Exercise1: Workflow Management](../exercise1/README.md) >
 
-Go to [Exercise 3: Intelligent Robotic Process Automation](../ex2/README.md) >
+Go to [Exercise2: Intelligent Robotic Process Automation](../exercise2/README.md) >

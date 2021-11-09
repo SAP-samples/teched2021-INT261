@@ -17,11 +17,11 @@ There are 3 set of exercises.
     - In this exercise, you will setup your SAP Business Technology Platform Trial account with SAP Workflow Management and Intelligent Robotic Process Automation.
 
 
-- [Exercise 1 - SAP Workflow Management](exercises/exercise1/)
+- [Exercise1 - SAP Workflow Management](exercises/exercise1/)
     - In this exercise, you will discover, import and configure a workflow content package based on capital expenditure process. Once the configuration of process variant, business rules and process visibility is completed, you will run the workflow.
 
 
-- [Exercise 2 - SAP Intelligent Robotic Process Automation](exercises/exercise2/)
+- [Exercise2 - SAP Intelligent Robotic Process Automation](exercises/exercise2/)
     - In this exercise, you will create a digital Bot that will trigger a Workflow for a Capital Expenditure Approval process. While doing so, you will learn complete automation building process, including the test of the automation and the creation a Project Pane for your Bot.
 
 
