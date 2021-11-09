@@ -1,25 +1,28 @@
-# Session ID - INT261 
+# Session ID - INT261
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2021 session called Session ID - INT261 on Automate Your CapEx with Predefined Workflow Content and RPA Bots.  
+This repository contains the material for the SAP TechEd 2021 session with Session ID - INT261 called Automate Your CapEx with Predefined Workflow Content and RPA Bots.  
 
 ## Overview
 
-This session introduces attendees on how you can combine citizen automation technologies easily with the SAP Workflow Management and SAP Intelligent Robotic Process Automation (RPA) services. Using predefined workflow content, you can create your own process variants and enrich them with bots to completely automate your capital expenditure (CapEx) process.
+This session introduces on how you can combine citizen automation technologies easily with the SAP Workflow Management and SAP Intelligent Robotic Process Automation (RPA) services. Using predefined workflow content, you can create your own process variants and enrich them with bots to completely automate your capital expenditure (CapEx) process.
 
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+There are 3 set of exercises.
 
-- [Introduction and Setup](exercises/ex0/)
-- [Exercise 1 - SAP Workflow Management](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - SAP Intelligent Robotic Process Automation](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise0 - Introduction and Setup](exercises/exercise0/)
+    - In this exercise, you will setup your SAP Business Technology Platform Trial account with SAP Workflow Management and Intelligent Robotic Process Automation.
+
+
+- [Exercise 1 - SAP Workflow Management](exercises/exercise1/)
+    - In this exercise, you will discover, import and configure a workflow content package based on capital expenditure process. Once the configuration of process variant, business rules and process visibility is completed, you will run the workflow.
+
+
+- [Exercise 2 - SAP Intelligent Robotic Process Automation](exercises/exercise2/)
+    - In this exercise, you will create a digital Bot that will trigger a Workflow for a Capital Expenditure Approval process. While doing so, you will learn complete automation building process, including the test of the automation and the creation a Project Pane for your Bot.
 
 
 ## How to obtain support
