@@ -1,4 +1,4 @@
-# Session ID - INT261
+# INT261 - Automate Your CapEx with Predefined Workflow Content and RPA Bots
 
 ## Description
 
