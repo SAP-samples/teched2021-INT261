@@ -148,6 +148,8 @@ In this exercise, you can configure one such approval step and activate a proces
 
 5. Choose the newly created  **High Value Investment**  process variant tile.
 
+    > There will be no progress bar, but it might take couple of seconds to open the process variant editor. Give it a time.
+
     ![01-023](./images/01-023.png)
 
 6. In the  **Manage Process Variants**  view, add a new approval step to the template by dragging the  **Approval**  tile from  **Available Steps**  and drop it after the  **Local Manager Approval**  step.
@@ -166,9 +168,16 @@ In this exercise, you can configure one such approval step and activate a proces
 
     ![01-027](./images/01-027.png)
 
-10. **Save** and then **Activate** the new process variant.
+10. **Activate** the new process variant.
+    > Activate will both Save and Activate the process variant.
+
+    > When you activate the process variant, a workflow is generated and deployed in your account.
 
     ![01-028](./images/01-028.png)
+
+    Click **Yes** in the confirmation popup.
+
+    ![01-028](./images/01-028-1.png)
 
 11. Go back.
 

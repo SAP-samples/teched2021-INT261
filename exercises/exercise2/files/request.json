@@ -1,0 +1,30 @@
+{
+  "RequestId": "IAP-2020-180",
+  "Title": "App Creation",
+  "Requester": {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Email": "<your email address in SAP BTP trial>",
+    "UserId": "<your email address in SAP BTP trial>",
+    "Comments": "Please Approve"
+  },
+  "Investment": {
+    "TotalCost": 50000,
+    "Type": "Software",
+    "CAPEX": 10000,
+    "OPEX": 2000,
+    "ROI": 5,
+    "IRR": 5,
+    "Country": "Germany",
+    "BusinessUnit": "Purchasing",
+    "Description": "Provide a fresh experience for our customers by providing new apps for our services"
+  },
+  "Sustainability": {
+    "EnergyEfficiency": 10,
+    "CO2Efficiency": 20,
+    "EnergyCostSavings": 15,
+    "WaterSavings": 10
+  },
+  "internal": {
+  }
+}

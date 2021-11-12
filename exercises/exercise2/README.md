@@ -68,17 +68,16 @@ In addition to building your bot, you will experience some RPA Officer tasks and
 To be able to execute the following Hands-on, you need:
 
 1. SAP Intelligent RPA Cloud Factory access as IRPRA Officer
-2. Windows machine with on-premise components installed
+2. **Windows machine with on-premise components installed**
 
 Please, check the technical prerequisites and System requirements in the official documentation [here](https://help.sap.com/viewer/6b9c8e86a0be43539b670de962834562/Cloud/en-US/0061438816a34fa78b77c99852318c70.html), and refer to the Setup Guide provided to you.
 
-- JSON file [request.json](Files/request.json) containing the context of the CAPEX Request that will be handled in the business process.
+- Download the JSON file [request.json](files/request.json) containing the context of the CAPEX Request that will be used  while configuring the RPA bot and running the workflow.
+  - Put this file in this folder of the system where your Desktop Agent is installed `C:\Users\Public\saprpa`
 
-This file should be in this folder `c:\users\Public\saprpa`
+> Ensure that the file copied has the following JSON template.
 
-And should follow the following JSON template.
-
-> **Important:** Make sure you are using the email address from your SAP BTP trial account for "Email" and "UserId" in this file.
+> **Important:** Make sure you have updated the email address of your SAP BTP trial account in "Email" and "UserId" field (line number 7 and 8) in this file.
 
 ![02-004](./images/02-004.png)
 
@@ -175,7 +174,7 @@ And should follow the following JSON template.
 > Please select your desired possibility above
 ### Import the provided Project
 
-1. Download the [CapexMananagement.zip](Files/CapexManagement.zip) containing the entire project
+1. Download the [CapexMananagement.zip](files/CapexManagement.zip) containing the entire project
 
 2. Before you can import the project file you need to get the Core SDK. To do this go to the **Store** tab, check the catalog **SAP Intelligent RPA SDK**, put **Core** in the search field, press the search button and select the **Core SDK**.
 
@@ -827,6 +826,8 @@ The environment is now set up with:
 
 ### Check Agent Mode and Project Assignment
 
+> ###### Important Note: If you are using SAP Universal ID,  please follow the note https://launchpad.support.sap.com/#/notes/3104958 to ensure that you have the right browser else there will a blank screen and you cannot login to your RPA cloud studio and no projects will be shown in the Desktop Agent.
+
 1. Check if the **Desktop Agent** is started from the **Systray**
       - If yes, ignore the steps below
       - If not, do the steps below
@@ -870,14 +871,12 @@ The environment is now set up with:
 
 ## Approve the capital expenditure request
 
-Now you have started the workflow via the RPA bot.
-
-Let us now approve the tasks accordingly within SAP Workflow Management.
+Now, you have started the workflow via the RPA bot. Let us approve the tasks within SAP Workflow Management.
 
 In this exercise, you will first approve the task created as a local manager. After the approval, the process moves to the next approval step to the CFO approval. You will again receive a task in My Inbox, where you can approve the task to complete the capital expenditure approval process.
 
 1. Go back to your trial account in SAP BTP Cockpit.
-Open the SaaS application" **Workflow Management**", click the three dots and select **Go to Application**.
+Open the **Workflow Management** launchpad, click the three dots and select **Go to Application**.
 
     ![02-130](./images/02-130.png)
 

@@ -71,12 +71,13 @@ During this session, you will learn how to:
 
 6.  In  **Destination Configuration** section, click **Edit**, then **Enter your trial user password** and click **Save**.
 
-    > Caution: Ensure that the **Two Factor Authentication** is [disabled for the user](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d26427a2c503456bbdfec53d385e0433.html) whose username and password are entered in the destination configuration. If not, then register a new user with 2FA disabled.
-
-    **WM\_CF\_SPACE\_PROVIDER** destination is used in Process Flexibility Cockpit while importing the sample content from API Business Hub. This destination is already created in the previous steps, and now you have configured the credentials for the destination.
+      **WM\_CF\_SPACE\_PROVIDER** destination is used in Process Flexibility Cockpit while importing the sample content from API Business Hub. This destination is already created in the previous steps, and now you have configured the credentials for the destination.
 
     > #### Important Note: You need to change your password in any case since the one that seems to be there is not valid.
-    > #### Important Note: If you are using SAP Universal ID then follow this note https://launchpad.support.sap.com/#/notes/3085908
+
+    > Caution: Ensure that the **Two Factor Authentication** is [disabled for the user](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d26427a2c503456bbdfec53d385e0433.html) whose username and password are entered in the destination configuration. If not, then register a new user with 2FA disabled.
+
+    > Important Note: If you are using SAP Universal ID then follow this note https://launchpad.support.sap.com/#/notes/3085908
 
     ![00-021](./images/00-021.png)
 
@@ -135,6 +136,7 @@ In your trial account, **go to Services -> Service Marketplace**
     "clientsecret" (line 17)
     "url:" (line 18)
     ```
+    > You can also switch to Form tab to copy the needed values of the above mentioned credential text
 
     We shall use these details later.
 
@@ -178,7 +180,7 @@ In your trial account, **go to Services -> Service Marketplace**
 
 ## Setup Intelligent Robotic Process Automation
 
-1. Click **Go To Your Trial Account**
+1. Open the URL https://cockpit.hanatrial.ondemand.com/cockpit/#/home/trial and Click **Go To Your Trial Account**
 
     ![00-012](./images/00-009.png)
 
@@ -252,6 +254,8 @@ In your trial account, **go to Services -> Service Marketplace**
 
 #### Desktop Agent Tenant Registration
 
+> If you have setup the Desktop Agent for the first time, then you will be directly taken to step 3 to add the Tenant.  
+
 1. Open your agent in the task bar, select **...** and **Tenants**
 
     ![00-073](./images/00-073.png)
@@ -260,7 +264,9 @@ In your trial account, **go to Services -> Service Marketplace**
 
     ![00-074](./images/00-074.png)
 
-3. Enter a tenant **Name** and the **Domain** of your Intelligent RPA Factory (e.g. xxxxtrial.app.irpa-trial.cfapps.us10.hana.ondemand.comx)
+3. Enter a tenant **Name** and the **Domain** of your Intelligent RPA Factory (e.g. https://xxxxtrial.app.irpa-trial.cfapps.us10.hana.ondemand.com)
+
+  > do not forget to add https://
 
     ![00-075](./images/00-075.png)
 
