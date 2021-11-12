@@ -104,13 +104,13 @@ process, based on a pre-built live process content package.
 
   > When you activate the process variant, a workflow is generated and deployed in your account.
 
-    ![01-013](./images/01-013.png)
-    ###
-    ![01-014](./images/01-014.png)
-    ###  
-    ![01-015](./images/01-015.png)
-    ###  
-    ![01-016](./images/01-016.png)
+  ![01-013](./images/01-013.png)
+
+  ![01-014](./images/01-014.png)
+
+  ![01-015](./images/01-015.png)
+
+  ![01-016](./images/01-016.png)
 
 16. Go back to the sample package, click on **DetermineLocalApprovers** rule from **Decisions** tile.
 
