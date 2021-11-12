@@ -826,7 +826,12 @@ The environment is now set up with:
 
 ### Check Agent Mode and Project Assignment
 
-> ###### Important Note: If you are using SAP Universal ID,  please follow the note https://launchpad.support.sap.com/#/notes/3104958 to ensure that you have the right browser else there will a blank screen and you cannot login to your RPA cloud studio and no projects will be shown in the Desktop Agent.
+> ###### Important Note: 
+> Ensure that you follow this note else there will a blank login screen in your Desktop Agent and you cannot login to your RPA cloud studio and no projects will be shown in the Desktop Agent.
+
+> - You need to have **Internet Explorer version 11** in your system and ensure that you have right browser configurations done as mentioned here: https://launchpad.support.sap.com/#/notes/2796986
+
+>- If you are using **SAP Universal ID**,  please follow the note https://launchpad.support.sap.com/#/notes/3104958 to ensure that you have the right browser settings enabled.
 
 1. Check if the **Desktop Agent** is started from the **Systray**
       - If yes, ignore the steps below

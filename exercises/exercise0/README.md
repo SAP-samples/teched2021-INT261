@@ -224,6 +224,12 @@ In your trial account, **go to Services -> Service Marketplace**
 
 ## SAP Intelligent RPA On-premise Installation
 
+> ###### Important Note: 
+> Ensure that you follow this note else there will a blank login screen in your Desktop Agent.
+> - You need to have **Internet Explorer version 11** in your system and ensure that you have right browser configurations done as mentioned here: https://launchpad.support.sap.com/#/notes/2796986
+
+>- If you are using **SAP Universal ID**,  please follow the note https://launchpad.support.sap.com/#/notes/3104958 to ensure that you have the right browser settings enabled.
+
 1. Check the technical prerequisites and System requirements [here](https://help.sap.com/viewer/6b9c8e86a0be43539b670de962834562/Cloud/en-US/0061438816a34fa78b77c99852318c70.html)
 
     ![00-066](./images/00-066.png)
