@@ -8,6 +8,10 @@ This repository contains the material for the SAP TechEd 2021 session with Sessi
 
 This session introduces on how you can combine citizen automation technologies easily with the SAP Workflow Management and SAP Intelligent Robotic Process Automation (RPA) services. Using predefined workflow content, you can create your own process variants and enrich them with bots to completely automate your capital expenditure (CapEx) process.
 
+## Requirements
+
+The requirements to follow the exercises in this repository are a trial account (in data center US10 or AP21) in SAP Business Technology Platform and subscription to SAP Workflow Management and SAP Intelligent RPA, as described here in [Exercise0 - Introduction and Setup](exercises/exercise0/).
+A **Windows machine** (to execute the bot created with SAP Intelligent RPA) is required to run the entire workshop.
 
 ## Exercises
 
