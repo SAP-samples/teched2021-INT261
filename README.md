@@ -29,5 +29,12 @@ There are 3 set of exercises.
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
+## Further Learning
+Please find some further sources to get educated on SAP Workflow Management:
+- [Join the SAP Community around SAP Workflow Management](https://community.sap.com/topics/workflow-management)
+- [Join the openSAP course "Improve business processes with SAP Workflow Management](https://open.sap.com/courses/btp2)
+- [Run the missions in SAP Discovery Center](https://discovery-center.cloud.sap/missionssearch/?showFilters=true&appType=platform&category=extensionsuite-digitalprocessautomation)
+- [Register for course from SAP Education: CLD500 - Introduction to SAP Workflow Management powered by SAP BTP](https://training.sap.com/course/cld500-introduction-to-sap-workflow-management-powered-by-sap-btp-classroom-013-g-en/?)
+
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
