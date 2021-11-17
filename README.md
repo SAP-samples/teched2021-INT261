@@ -2,11 +2,14 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2021 session with Session ID - INT261 called Automate Your CapEx with Predefined Workflow Content and RPA Bots.  
+This repository contains the material for the SAP TechEd 2021 session with Session ID - *[INT261: Automate Your CapEx with Predefined Workflow Content and RPA Bots](https://reg.sapevents.sap.com/flow/sap/sapteched2021/portal/page/sessions/session/163036737451500138gO?web=1&wdLOR=cB99ED42D-2498-074C-B948-5C126DB2AE6F)*.  
 
 ## Overview
 
 This session introduces on how you can combine citizen automation technologies easily with the SAP Workflow Management and SAP Intelligent Robotic Process Automation (RPA) services. Using predefined workflow content, you can create your own process variants and enrich them with bots to completely automate your capital expenditure (CapEx) process.
+
+[Presentation slides](https://github.com/SAP-samples/teched2021-INT261/blob/main/INT261.pdf)
+
 
 ## Requirements
 
